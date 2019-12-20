@@ -4,9 +4,10 @@
 
 ## Third party credits
 
-- /src/part2-css/milo.jpg - Jae Park - https://unsplash.com/photos/7GX5aICb5i4
-- /src/part2-css/mittens.jpg - Paul Hanaoka - https://unsplash.com/photos/w2DsS-ZAP4U
-- /src/part2-css/kitty.jpg - Nathalie ANDRE - https://unsplash.com/photos/a8-vQ2Fefig
+- milo.jpg - Jae Park - https://unsplash.com/photos/7GX5aICb5i4
+- mittens.jpg - Paul Hanaoka - https://unsplash.com/photos/w2DsS-ZAP4U
+- kitty.jpg - Nathalie ANDRE - https://unsplash.com/photos/a8-vQ2Fefig
+- user.jpg - Zoë Gayah Jonker - https://unsplash.com/photos/13ky5Ycf0ts
 
 ## Unsplash license
 All photos published on Unsplash can be used for free. You can use them for commercial and noncommercial purposes. You do not need to ask permission from or provide credit to the photographer or Unsplash, although it is appreciated when possible.
