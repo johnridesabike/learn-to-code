@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Special Agent Mittens</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="base-style.css" />
+        <link rel="stylesheet" href="normalize.css" />
+        <style type="text/css">
+            a {
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            body {
+                background-color: #d3f6db;
+            }
+            #site-header {
+                background-color: #5a0b4d;
+                color: white;
+            }
+            #site-header a {
+                color: white;
+            }
+            button {
+                background-color: #92d5e6;
+                border-radius: 10px;
+                border-style: solid;
+                border-color: #5a0b4d;
+                border-width: 1px;
+            }
+            button:hover {
+                background-color: #a1ef8b;
+            }
+            .skills-list {
+                columns: 2;
+                list-style: none;
+            }
+            .top-skill {
+                font-weight: bold;
+                color: red;
+            }
+            blockquote {
+                background-color: white;
+                padding: 0.5em;
+            }
+            blockquote p {
+                padding: 0;
+                margin: 0;
+                margin-bottom: 1em;
+            }
+            .comment-photo img {
+                border-radius: 50%;
+            }
+            .comment {
+                background: white;
+                border-radius: 10px;
+                padding: 0.25em;
+                margin-bottom: 1em;
+            }
+            .comment-form textarea {
+                width: 100%;
+                height: 5em;
+            }
+            .by {
+                font-weight: 400;
+                font-size: 0.8em;
+            }
+            .comment-date {
+                font-size: 0.8em;
+            }
+        </style>
+    </head>
+    <body>
+        <header id="site-header">
+            <div>
+                <h1 id="site-title">
+                    <a href="/">&#x1F63A; CatBook</a>
+                </h1>
+                <p id="site-description">
+                    Your #1 place to connect with cats.
+                </p>
+            </div>
+            <nav><a href="/">Home</a> &bull; <a href="/">About</a></nav>
+        </header>
+        <div id="sidebar">
+            <!-- Use inline styles here to illustrate how styles work. -->
+            <aside>
+                <h2>
+                    About CatBook
+                </h2>
+                <p style="opacity: 0.5; color: red;">
+                    <a href="/" style="text-decoration:none;">CatBook</a> is a
+                    social network for cats. It's free for all cats to join!
+                </p>
+                <p>
+                    You are viewing a cat's profile page.
+                </p>
+            </aside>
+        </div>
+        <main>
+            <header class="profile-header">
+                <div>
+                    <h1 class="profile-title">
+                        Secret Agent Mittens
+                    </h1>
+                    <figure class="profile-photo">
+                        <img
+                            src="mittens.jpg"
+                            alt="Mittens' profile photo"
+                            height="200"
+                            width="200"
+                        />
+                        <figcaption>Photo of Agent Mittens</figcaption>
+                    </figure>
+                    <div class="buttons">
+                        <button>
+                            Add friend
+                        </button>
+                        <button>
+                            Message
+                        </button>
+                        <button>
+                            Share
+                        </button>
+                    </div>
+                </div>
+                <div>
+                    <table class="bio-table">
+                        <tbody>
+                            <tr>
+                                <th>Residence</th>
+                                <td>DC area</td>
+                            </tr>
+                            <tr>
+                                <th>Age</th>
+                                <td>5 years</td>
+                            </tr>
+                            <tr>
+                                <th>Hometown</th>
+                                <td><em>Classified</em></td>
+                            </tr>
+                            <tr>
+                                <th>Code name</th>
+                                <td>Mittens</td>
+                            </tr>
+                            <tr>
+                                <th>Legal name</th>
+                                <td><em>Classified</em></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </header>
+            <h2 class="bio-title">
+                Bio
+            </h2>
+            <p class="bio-paragraph">
+                At a young age, Mittens was recruited into the
+                <a href="/">Kitty Secret Agent Corps</a>. He graduated at the
+                top of his class and now he defends cats from injustice across
+                the globe.
+            </p>
+
+            <div class="stats">
+                <h2 class="stats-title">
+                    Stats
+                </h2>
+                <h3>
+                    Favorite food
+                </h3>
+                <p>
+                    Tuna
+                </p>
+
+                <h3>
+                    Strengths
+                </h3>
+                <p>
+                    Claws and stealth
+                </p>
+
+                <h3>
+                    Weakness
+                </h3>
+                <p>
+                    Catnip and Laser pointers
+                </p>
+
+                <h3 class="skills-title">
+                    Skills
+                </h3>
+                <ul class="skills-list">
+                    <li class="top-skill">
+                        Napping
+                    </li>
+                    <li>
+                        Climbing trees
+                    </li>
+                    <li>
+                        <del>Getting down from trees</del>
+                    </li>
+                    <li>
+                        Scratching
+                    </li>
+                    <li>
+                        Batting
+                    </li>
+                    <li class="top-skill">
+                        Knocking things off tables
+                    </li>
+                </ul>
+            </div>
+            <h2 class="title-quotes">
+                Quotes
+            </h2>
+            <blockquote>
+                <p>
+                    Meow meow meow.
+                </p>
+                <cite>Remark given at the 2019 Kitty Agent Gala</cite>
+            </blockquote>
+            <h2 class="title-comments">
+                Comments
+            </h2>
+            <section id="comments">
+                <div class="comment">
+                    <header class="comment-profile">
+                        <h3 class="comment-author">
+                            <span class="by">by</span> Milo
+                        </h3>
+                        <div class="comment-photo">
+                            <img
+                                src="milo.jpg"
+                                width="100"
+                                height="100"
+                                alt="Milo's photo"
+                            />
+                        </div>
+                        <div class="comment-date">
+                            Posted 1 day ago
+                        </div>
+                    </header>
+                    <div class="comment-body">
+                        <p>
+                            Can I get your pawtograph? &#x1F43E;
+                        </p>
+                    </div>
+                </div>
+                <div class="comment">
+                    <header class="comment-profile">
+                        <h3 class="comment-author">
+                            <span class="by">by</span> Kitty Galore
+                        </h3>
+                        <div class="comment-photo">
+                            <img
+                                src="kitty.jpg"
+                                width="100"
+                                height="100"
+                                alt="Kitty Galore's photo"
+                            />
+                        </div>
+                        <div class="comment-date">
+                            Posted 2 days ago
+                        </div>
+                    </header>
+                    <div class="comment-body">
+                        <p>
+                            Meow meow? &#x1F431; Meow meow meow &#x1F640;
+                        </p>
+                        <p>
+                            Purrrr.... meow! &#x1F639;
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <form class="comment-form">
+                <h3 class="title-comment-form">
+                    Leave a comment for Mittens
+                </h3>
+                <input type="text" placeholder="Name" id="comment-form-name" />
+                <textarea
+                    placeholder="Write a comment here"
+                    id="comment-form-text"
+                ></textarea>
+                <input
+                    type="submit"
+                    value="Submit"
+                    id="comment-submit-button"
+                />
+            </form>
+        </main>
+        <footer class="site-footer">
+            <p>
+                Copyright &copy; 2019 CatBook
+            </p>
+        </footer>
+    </body>
+    <script type="text/javascript">
+        /* This giant function just creates the HTML we'll render into the
+           comments list. It may be unweildy, but its details aren't important
+           since all we need is a basic function to help us later.*/
+        function createComment(authorName, text) {
+            text = text.length > 0 ? text : "[Blank comment]";
+            authorName = authorName.length > 0 ? authorName : "Anonymous";
+            var comment = document.createElement("div");
+            comment.className = "comment";
+            var header = document.createElement("header");
+            header.className = "comment-profile";
+            comment.appendChild(header);
+            var author = document.createElement("h3");
+            author.className = "comment-author";
+            var by = document.createElement("span");
+            by.className = "by";
+            by.appendChild(document.createTextNode("by "));
+            author.appendChild(by);
+            author.appendChild(document.createTextNode(authorName));
+            header.appendChild(author);
+            var photoDiv = document.createElement("div");
+            photoDiv.className = "comment-photo";
+            var avatarImg = document.createElement("img");
+            photoDiv.appendChild(avatarImg);
+            avatarImg.src = "user.jpg";
+            avatarImg.width = 100;
+            avatarImg.height = 100;
+            header.appendChild(photoDiv);
+            var date = document.createElement("div");
+            date.className = "comment-date";
+            date.appendChild(document.createTextNode("Posted just now"));
+            header.appendChild(date);
+            var body = document.createElement("div");
+            comment.appendChild(body);
+            var bodyP = document.createElement("p");
+            bodyP.appendChild(document.createTextNode(text));
+            body.appendChild(bodyP);
+            return comment;
+        }
+
+        /* Here's the comment we'll create to submit the comment. */
+        function submitComment(event) {
+            /* Every time an "event" happens on an HTML page, it passes an
+               object to control how it behaves. It's kind of complicated, so
+               we're just going to `preventDefault()` and ignore it.*/
+            event.preventDefault();
+            // `querySelector` gets the "comment" and and "author" input fields.
+            var comment = document.querySelector("#comment-form-text");
+            var author = document.querySelector("#comment-form-name");
+            // To get their actual contents, we need to access comment.value
+            // and author.value
+            if(comment.value.length > 0 && author.value.length > 0) {
+                // call the `createComment` function defined above
+                var newComment = createComment(author.value, comment.value)
+                // explain method chaining
+                document.querySelector("#comments").appendChild(newComment);
+            } else {
+                window.alert("Fill it out correctly!")
+            }
+        }
+        // Use `addEventListener` to "attach" the function to the button.
+        document
+            .querySelector("#comment-submit-button")
+            .addEventListener("click", submitComment);
+    </script>
+</html>

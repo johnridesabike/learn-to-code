@@ -1,0 +1,32 @@
+/* This file includes styles that will be added earlier and are not part of the
+  class. */
+body {  
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+main {
+  padding: 0 1em;
+  max-width: 800px;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+#site-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+}
+
+.comment {
+  display: flex;
+}
