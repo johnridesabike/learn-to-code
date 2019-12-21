@@ -4,23 +4,23 @@ This repository contains files I used during our "Learn to Code" program at Chat
 
 We had three sessions. Each one focused on a different topic and is represented by a folder in this repository.
 
-## [Part 1: HTML](/part1-html/)
+## [Part 1: HTML](./part1-html/)
 
-Files [`index.html`](/part1-html/index.html) and [`about.html`](/part1-html/about.html) contain the completed code from the end of the session. 
+Files [`index.html`](./part1-html/index.html) and [`about.html`](./part1-html/about.html) contain the completed code from the end of the session. 
 
-Files [`index-blank.html`](/part1-html/index-blank.html) and [`about-blank.html`](/part1-html/about-blank.html) are the templates given to students to make their own.
+Files [`index-blank.html`](./part1-html/index-blank.html) and [`about-blank.html`](./part1-html/about-blank.html) are the templates given to students to make their own.
 
-## [Part 2: CSS](/part2-css/)
+## [Part 2: CSS](./part2-css/)
 
-File [`index.html`](/part2-css/index.html) contain the completed code from the end of the session. 
+File [`index.html`](./part2-css/index.html) contain the completed code from the end of the session. 
 
-File [`index-blank.html`](/part2-css/index-blank.html) is the template given to students to make their own.
+File [`index-blank.html`](./part2-css/index-blank.html) is the template given to students to make their own.
 
-## [Part 3: JavaScript](/part3-javascript)
+## [Part 3: JavaScript](./part3-javascript)
 
-Files [`script.js`](/part3-javascript/script.js) and [`index.html`](/part3-javascript/index.html) contain the completed code from the end of the session. 
+Files [`script.js`](./part3-javascript/script.js) and [`index.html`](./part3-javascript/index.html) contain the completed code from the end of the session. 
 
-File [`index-blank.html`](/part3-javascript/index-blank.html) is the template given to students to make their own. The template for `script.js` was blank file.
+File [`index-blank.html`](./part3-javascript/index-blank.html) is the template given to students to make their own. The template for `script.js` was blank file.
 
 ## License
 
@@ -52,25 +52,25 @@ All photos are under used under the [Unsplash license](https://unsplash.com/lice
 
 ### mittens.jpg
 
-![Mittens](/part3-javascript/mittens.jpg)
+![Mittens](./part3-javascript/mittens.jpg)
 
 Photo by Paul Hanaoka - https://unsplash.com/photos/w2DsS-ZAP4U
 
 ### milo.jpg
 
-![Milo](/part3-javascript/milo.jpg)
+![Milo](./part3-javascript/milo.jpg)
 
 Photo by Jae Park - https://unsplash.com/photos/7GX5aICb5i4
 
 ### kitty.jpg
 
-![Kitty Galore](/part3-javascript/kitty.jpg)
+![Kitty Galore](./part3-javascript/kitty.jpg)
 
 Photo by Nathalie ANDRE - https://unsplash.com/photos/a8-vQ2Fefig
 
 ### user.jpg
 
-![User](/part3-javascript/user.jpg)
+![User](./part3-javascript/user.jpg)
 
 Photo by Zoë Gayah Jonker - https://unsplash.com/photos/13ky5Ycf0ts
 
