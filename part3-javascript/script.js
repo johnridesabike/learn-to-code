@@ -16,7 +16,7 @@ if (friends === 10) { // checking equality
 // explain the difference between == and === (short version, if necessary)
 var friendsArray = ["Whitney", "Omar", "Sarah"]; // set an array
 console.log("I have " + friendsArray.length + " friends."); // access array length
-console.log("My best friends is " + friendsArray[0]); // access array index (starting at 1))
+console.log("My best friends is " + friendsArray[0]); // access array index (starting at 0))
 // create a function
 function average(a, b) {
     var total = a + b;
