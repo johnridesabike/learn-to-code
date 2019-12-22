@@ -20,7 +20,7 @@ File [`index-blank.html`](./part2-css/index-blank.html) is the template given to
 
 ## [Part 3: JavaScript](./part3-javascript)
 
-Files [`script.js`](./part3-javascript/script.js) and [`index.html`](./part3-javascript/index.html) contain the completed code from the end of the session. 
+Files [`script.js`](./part3-javascript/script.js) and [`index.html`](./part3-javascript/index.html) contain the completed code from the end of the session. The relevant JavaScript in `index.html` is at the very bottom of the file.
 
 File [`index-blank.html`](./part3-javascript/index-blank.html) is the template given to students to make their own. The template for `script.js` was blank file.
 
