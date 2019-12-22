@@ -4,6 +4,8 @@ This repository contains files I used during our "Learn to Code" program at Chat
 
 We had three sessions. Each one focused on a different topic and is represented by a folder in this repository.
 
+These source code files are intended to be used as examples to create future "learn to code" programs. The code includes comments with suggestions for instructors.
+
 ## [Part 1: HTML](./part1-html/)
 
 Files [`index.html`](./part1-html/index.html) and [`about.html`](./part1-html/about.html) contain the completed code from the end of the session. 
@@ -12,7 +14,7 @@ Files [`index-blank.html`](./part1-html/index-blank.html) and [`about-blank.html
 
 ## [Part 2: CSS](./part2-css/)
 
-File [`index.html`](./part2-css/index.html) contain the completed code from the end of the session. 
+File [`index.html`](./part2-css/index.html) contains the completed code from the end of the session. 
 
 File [`index-blank.html`](./part2-css/index-blank.html) is the template given to students to make their own.
 

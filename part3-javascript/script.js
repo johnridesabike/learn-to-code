@@ -14,7 +14,7 @@ if (friends === 10) { // checking equality
     console.log("You have ten friends");
 }
 // explain the difference between == and === (short version, if necessary)
-var friendsArray = ["Whitney", "Omar", "Sarah"]; // set an array
+var friendsArray = ["Matthew", "Mary", "Luke"]; // set an array
 console.log("I have " + friendsArray.length + " friends."); // access array length
 console.log("My best friends is " + friendsArray[0]); // access array index (starting at 0))
 // create a function
@@ -31,4 +31,4 @@ function friendStats(friends) {
 }
 // explain the concept of variable scope, why `friends` can be different in the function
 friendStats(friends);
-friendStats(["John", "Keshan"]);
+friendStats(["Anne", "Mark"]);
